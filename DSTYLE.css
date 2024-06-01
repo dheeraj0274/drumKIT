@@ -9,6 +9,11 @@ h1{
     text-shadow:3px 0 #DA0463 ;
     word-spacing: 40px;    
 }
+h2{
+    font-size: 3rem;
+    color: white;
+    text-shadow:3px 0 #DA0463 ;
+    word-spacing: 35px; 
 .w {
     background-image: url("tom1.png");
   }
