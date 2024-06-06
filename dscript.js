@@ -9,7 +9,7 @@ for(var i=0; i<numberofDrums; i++){
   document.addEventlistener("keypress",function(event){
       makesound(event.key);
   });
-     function makesound(key){
+     function makeSound(key){
         switch (key){
             case "w":
                 var tom1 = new Audio('tom-1.mp3');
