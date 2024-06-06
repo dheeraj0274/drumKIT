@@ -6,7 +6,7 @@ for(var i=0; i<numberofDrums; i++){
         makeSound(button);
     });
 }   
-  document.addEventlistener("keypress",function(event){
+  document.addEventListener("keypress",function(event){
       makeSound(event.key);
   });
      function makeSound(key){
