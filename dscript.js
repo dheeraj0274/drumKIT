@@ -7,7 +7,7 @@ for(var i=0; i<numberofDrums; i++){
     });
 }   
   document.addEventlistener("keypress",function(event){
-      makesound(event.key);
+      makeSound(event.key);
   });
      function makeSound(key){
         switch (key){
